@@ -1,0 +1,47 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+#phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#dial {
+    border: 2px solid #000;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    position: relative;
+}
+
+.dial-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background-color: #fff;
+    text-align: center;
+}
+
+#display {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
